@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: linear-gradient(135deg, rgb(8, 12, 239), rgb(180, 180, 243)) ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    line-height: 1.4;
+    word-spacing: 2;
+}
+
+.container{
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.head h1{
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.yellow{
+    color: rgb(216, 216, 138)
+}
+
+.input-field{
+    background-color: rgb(75, 196, 234);
+    align-self: flex-start;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.input-field input{
+    width: 300px;
+    font-size: 20px;
+}
+.input-field button{
+    font-size: 20px;
+    background-color: rgb(119, 82, 156);
+    border-style: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+
+.answer span{
+    color: yellow;
+    font-size: large;
+}
